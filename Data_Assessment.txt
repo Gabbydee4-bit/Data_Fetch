@@ -1,0 +1,14 @@
+USERS
+1. One of the data quality issues I identify for the user data, there are alot of missing informations, example the Birth_Date, State, Language and Gender has alot of missing columns
+2. There also some data inconsistency in the Language column such as es-419. I do not think that a language type will contain numeric data type
+
+TRANSACTIONS
+1. I observe that there are missing data in the transaction data, barcode seems to contain alot of missing value
+2. There are alot of inconsistency in the Final_quantity column which contains "zero" instead of numeric value
+3. The Final_sales column should contain a uniform decimal points, I notice that there were some entries without any decimal points and some plain (zero) value
+4. In the transaction data, 171 duplicate values found.
+
+PRODUCTS
+1. I observe that the products data contains alot of missing data from all the columns
+2. What is the need of having four different categories
+3. In the Products data, 215 duplicate values found
