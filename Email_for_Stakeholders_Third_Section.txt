@@ -1,0 +1,30 @@
+Subject: Data Quality Findings and Key Insights from Fetch Data Analysis
+
+Hi Katie,
+
+I hope you are doing well.
+
+I have completed an initial analysis of the data you provided, and here are some key findings:
+
+Key Data Quality Issues:
+1. Missing Data:
+   - User data: `birth_date`, `gender`, and `language` fields have a high number of missing entries.  
+   - Product data: `category_4`, `manufacturer`, and `brand` fields are incomplete for many records.  
+   - Transaction data: `final_quantity` and `final_sale` have many entries with non-numeric or placeholder values.  
+A small percentage of users have unrealistic or missing values which may affect age-based segmentation. Also, it is difficult to fully analyze the behavior of purchases when some transactions lack associated product details, due to some inconsistencies in the data on users and transaction.
+
+2. Duplicates:  
+   - I found duplicate records in both the product (215 rows) and transaction (171 rows) datasets, which may skew reporting and analysis. The duplication could inflate certain metrics. 
+
+Suggestions:
+To refine the analysis and ensure accuracy, we could use:
+1. Data collection processes such as. 
+(a) receipt scanning and processing to avoid missing data
+(b) partnership with brands and retailers to update products’ barcode, this will eliminate duplication as barcode is assigned to specific product. 
+2. Focusing on optimizing user engagement strategies or identifying opportunities to strengthen brand partnerships based on business priorities insights.
+3. Implement or enhance our data deduplication processes to ensure cleaner data
+
+Please let me know if you would like a deeper dive into any specific areas, looking forward to your thoughts.
+
+Best regards,
+Gabriel Adekunle
